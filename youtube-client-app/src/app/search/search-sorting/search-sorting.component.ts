@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './search-sorting.component.html',
-  styleUrl: './search-sorting.component.scss'
+  styleUrl: './search-sorting.component.scss',
 })
-export class SearchSortingComponent {
+export default class SearchSortingComponent {
 
 }

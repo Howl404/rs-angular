@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchSortingComponent } from './search-sorting.component';
+import SearchSortingComponent from './search-sorting.component';
 
 describe('SearchSortingComponent', () => {
   let component: SearchSortingComponent;
@@ -8,10 +8,10 @@ describe('SearchSortingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SearchSortingComponent]
+      imports: [SearchSortingComponent],
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(SearchSortingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
