@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import SearchItem from '../search-item.model';
 
 @Component({
   selector: 'app-search-results',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './search-results.component.scss',
 })
 export default class SearchResultsComponent {
-
+  @Input() private searchResults!: SearchItem[];
 }
